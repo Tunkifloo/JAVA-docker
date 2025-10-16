@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 
 @Entity
@@ -40,7 +41,7 @@ public class Employee {
     private LocalDate hireDate;
 
     @Column(precision = 10, scale = 2)
-    private Double salary;
+    private BigDecimal salary;
 
     @Column(name = "is_active")
     private Boolean isActive = true;
