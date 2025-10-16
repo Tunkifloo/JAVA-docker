@@ -1,0 +1,15 @@
+target/
+!target/*.jar
+.mvn/
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+*.log
+*.md
+.git/
+.gitignore
+docker-compose.yml
+Dockerfile
+README.md
